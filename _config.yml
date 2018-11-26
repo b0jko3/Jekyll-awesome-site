@@ -14,7 +14,6 @@ destination: docs
 # Build settings
 future: true
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
