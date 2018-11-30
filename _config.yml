@@ -17,6 +17,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+sass:
+  sass_dir: assets/css
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -24,4 +27,5 @@ exclude:
   - gulpfile.js
   - docs
   - node_modules
-  - scss
+  - _sass
+  - assets/css

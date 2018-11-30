@@ -5,10 +5,10 @@ var browserSync = require('browser-sync').create();
 var $ = require('gulp-load-plugins')();
 
 var path = {
-	SCSS_SRC	: './scss/**/*.scss',
+	SCSS_SRC	: './assets/css/*.scss',
 	SCSS_DST	: './css',
 	CSS_JKDST	: './docs/css',
-	HTML_SRC	: ['./*.html','./_post/*.*','./_layouts/*.*', './_includes/*.*'],
+	HTML_SRC	: ['./*.html', './_post/*.*', './_layouts/*.*', './_includes/*.*', './_data/*.*'],
 }
 
 gulp.task('scss', function () {
