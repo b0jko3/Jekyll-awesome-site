@@ -2,5 +2,9 @@
   link: /
 - name: About
   link: /about/
+- name: Fights
+  link: /fights/
+- name: Boxers
+  link: /boxers/
 - name: Contacts
   link: /contacts/

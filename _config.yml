@@ -5,10 +5,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/Jekyll-awesome-site"
-# baseurl: ""
+baseurl:
+ "/Jekyll-awesome-site"
+# ""
 url: ""
-github_username:  b0jko3
+github_username: b0jko3
 
 destination: docs
 
@@ -29,3 +30,23 @@ exclude:
   - node_modules
   - _sass
   - assets/css
+
+collections:
+  boxers:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "boxers"
+    values:
+      layout: "boxer"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

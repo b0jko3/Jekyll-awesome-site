@@ -1,0 +1,13 @@
+---
+title: Boxers
+permalink: /boxers/
+---
+<h1>Boxers</h1>
+
+<ul>
+    {% for boxer in site.boxers %}
+        <li>
+            <h2><a href="{{ site.baseurl }}{{ boxer.url }}">{{ boxer.name }}</a></h2>
+        </li>
+    {% endfor %}
+</ul>

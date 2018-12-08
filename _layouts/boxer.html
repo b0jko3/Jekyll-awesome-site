@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+
+<h3>Statistics</h3>
+<ul>
+    <li>Real name {{ page.real-name }}</li>
+    <li>Nickname(s) {{ page.nickname }}</li>
+    <li>Weight(s) {{ page.weight }}</li>
+    <li>Height {{ page.height }}</li>
+    <li>Reach {{ page.reach }}</li>
+    <li>Nationality {{ page.nationality }}</li>
+    <li>Born {{ page.born }}</li>
+    <li>Stance {{ page.stance }}</li>
+    Boxing record
+    <li>Total fights {{ page.total-fights }}</li>
+    <li>Wins {{ page.wins }}</li>
+    <li>Wins by KO {{ page.wins-by-ko }}</li>
+    <li>Losses {{ page.losses }}</li>
+    <li>Draws {{ page.draws }}</li>
+</ul>
+
+{{ content }}
+
+<h2>Fights</h2>
+<ul>
+    {% assign filtered_fights = site.posts | where: 'boxer-one', page.short-name %}
+    {% for fight in filtered_fights %}
+        <li><a href="{{ site.baseurl }}{{ fight.url }}">{{ fight.title }}</a></li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,14 @@
+---
+title: Fights
+permalink: /fights/
+---
+
+<h1>Latest Fights</h1>
+
+<ul>
+    {% for fight in site.posts %}
+        <li>
+            <h2><a href="{{ site.baseurl }}{{ fight.url }}">{{ fight.title }}</a></h2>
+        </li>
+    {% endfor %}
+</ul>

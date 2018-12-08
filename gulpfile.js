@@ -8,7 +8,7 @@ var path = {
 	SCSS_SRC	: './assets/css/*.scss',
 	SCSS_DST	: './css',
 	CSS_JKDST	: './docs/css',
-	HTML_SRC	: ['./*.html', './_post/*.*', './_layouts/*.*', './_includes/*.*', './_data/*.*'],
+	HTML_SRC	: ['./*.html', './_layouts/*.*', './_includes/*.*'],
 }
 
 gulp.task('scss', function () {
