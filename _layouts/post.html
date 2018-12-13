@@ -5,10 +5,11 @@ layout: default
 
 <p>
     {{ page.date | date_to_string }}
-    {% assign boxer = site.boxers | where: 'short-name', page.boxer-one %}
-    {% if boxer %}
-        - <a href="{{ site.baseurl }}{{ boxer.url }}">{{ boxer.name }}</a>
-    {% endif %}
+    {% assign boxer0 = site.boxers | where: 'name', page.boxers[0] %}
+    {% assign boxer1 = site.boxers | where: 'name', page.boxers[1] %}
+
+    - <a href="{{ site.baseurl }}{{ boxer0[0].url }}">{{ boxer0[0].name }}</a>
+    vs. <a href="{{ site.baseurl }}{{ boxer1[0].url }}">{{ boxer1[0].name }}</a>
 </p>
 
 {{ content }}

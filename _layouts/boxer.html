@@ -25,7 +25,7 @@ layout: default
 
 <h2>Fights</h2>
 <ul>
-    {% assign filtered_fights = site.posts | where: 'boxer-one', page.short-name %}
+    {% assign filtered_fights = site.posts | where: 'boxers', page.name %}
     {% for fight in filtered_fights %}
         <li><a href="{{ site.baseurl }}{{ fight.url }}">{{ fight.title }}</a></li>
     {% endfor %}
