@@ -35,7 +35,7 @@ layout: default
         {% assign filtered_fights = site.posts | where: 'boxers', page.name %}
         {% for fight in filtered_fights %}
             <li>
-                <a href="{{ site.baseurl }}{{ fight.url }}">{{ page.date | date_to_string }} - {{ fight.title }}</a>
+                <a href="{{ site.baseurl }}{{ fight.url }}">{{ fight.date | date_to_string }} - {{ fight.title }}</a>
             </li>
         {% endfor %}
     </ul>
