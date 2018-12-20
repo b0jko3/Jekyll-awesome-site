@@ -30,7 +30,6 @@ exclude:
   - node_modules
   - _sass
   - assets/css
-  - fontawesome/css
 
 collections:
   boxers:
