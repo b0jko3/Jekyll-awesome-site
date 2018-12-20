@@ -1,12 +1,13 @@
 ---
 name:   Anthony Joshua
+image:  /../assets/images/andrea-dibitonto-1140614-unsplash.jpg
 real-name:  Anthony Oluwafemi Olaseni Joshua
 nickname:   AJ
 weight: Heavyweight
 height: 1.98 m (6 ft 6 in)
 reach:  208 cm (82 in)
 nationality:    British
-born:   15 October 1989 (age 29) Watford, Hertfordshire, England
+born:   15 October 1989 (age 29)
 stance: Orthodox
 total-fights:   22
 wins:   22

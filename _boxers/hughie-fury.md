@@ -1,12 +1,13 @@
 ---
 name:   Hughie Fury
+image:  /../assets/images/ayo-ogunseinde-93181-unsplash.jpg
 real-name:  Hughie Lewis Fury
 nickname:   The Fist of Fury
 weight: Heavyweight
 height: 1.98 m (6 ft 6 in)
 reach:  203 cm (80 in)
 nationality:    British
-born:   18 September 1994 (age 24) Stockport, Greater Manchester, England
+born:   18 September 1994 (age 24)
 stance: Orthodox
 total-fights:   23
 wins:   21

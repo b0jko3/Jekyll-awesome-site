@@ -6,14 +6,15 @@
 		<link rel="stylesheet" href="/Jekyll-awesome-site/css/styles.css" type="text/css" />
 	</head>
 	<body>
-		<nav>
+		<input type="checkbox" id="nav-toggle" name="nav-toggle">
+		<header class="site-header">
+			<a href="/Jekyll-awesome-site/" class="site-title">Boxing</a>
+			<label for='nav-toggle' class="fas fa-bars"></label>
+			<label for='nav-toggle' id="menu">Menu</label>
+			<nav class="navigation">
     
         <a href="/Jekyll-awesome-site/" >
             Home
-        </a>
-    
-        <a href="/Jekyll-awesome-site/about/" >
-            About
         </a>
     
         <a href="/Jekyll-awesome-site/fights/" >
@@ -24,14 +25,16 @@
             Boxers
         </a>
     
-        <a href="/Jekyll-awesome-site/contacts/" >
-            Contacts
+        <a href="/Jekyll-awesome-site/credits/" >
+            Credits
         </a>
     
 </nav>
-		<h1>Wladimir Klitschko vs. Tyson Fury</h1>
+		</header>
+		<main class="site-content">
+			<h1>Wladimir Klitschko vs. Tyson Fury</h1>
 
-<p>
+<p class="post">
     29 Apr 2017
     
     
@@ -42,5 +45,11 @@
 
 <p>Wladimir Klitschko vs. Tyson Fury, billed as Kollisionskurs (German for “Collision Course”), was a professional boxing match contested for the WBA (Super), WBO, IBF, IBO, The Ring magazine, and lineal heavyweight titles. The fight took place on November 28, 2015 at Esprit Arena, Düsseldorf, Nordrhein-Westfalen, Germany. Fury was declared the winner by unanimous decision. This ended Klitschko’s reign of nearly 10 years, the second longest in heavyweight history. Klitschko was entitled to a rematch per the fight contract. Despite this, Fury was stripped of the IBF heavyweight title for agreeing to the rematch instead of facing the IBF mandatory challenger, Vyacheslav Glazkov.</p>
 
+		</main>
+		<footer class="site-footer">
+			<span>Boxing © 2018</span>
+			<i class="fab fa-github"></i>
+			<a href="https://github.com/b0jko3/Jekyll-awesome-site">b0jko3</a>
+		</footer>
 	</body>
 </html>

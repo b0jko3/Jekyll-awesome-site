@@ -6,14 +6,15 @@
 		<link rel="stylesheet" href="/Jekyll-awesome-site/css/styles.css" type="text/css" />
 	</head>
 	<body>
-		<nav>
+		<input type="checkbox" id="nav-toggle" name="nav-toggle">
+		<header class="site-header">
+			<a href="/Jekyll-awesome-site/" class="site-title">Boxing</a>
+			<label for='nav-toggle' class="fas fa-bars"></label>
+			<label for='nav-toggle' id="menu">Menu</label>
+			<nav class="navigation">
     
         <a href="/Jekyll-awesome-site/" >
             Home
-        </a>
-    
-        <a href="/Jekyll-awesome-site/about/" >
-            About
         </a>
     
         <a href="/Jekyll-awesome-site/fights/" class="current">
@@ -24,36 +25,79 @@
             Boxers
         </a>
     
-        <a href="/Jekyll-awesome-site/contacts/" >
-            Contacts
+        <a href="/Jekyll-awesome-site/credits/" >
+            Credits
         </a>
     
 </nav>
-		<h1>Latest Fights</h1>
+		</header>
+		<main class="site-content">
+			<h1>Latest Fights</h1>
 
-<ul>
+<ul class="fights">
+    
+    
     
         <li>
+            <div class="vs">
+                <img src="/Jekyll-awesome-site/../assets/images/ashkan-forouzani-1176256-unsplash.jpg">
+                <span class="vs-text">vs</span>
+                <img src="/Jekyll-awesome-site/../assets/images/mahdi-meshkatee-1162350-unsplash.jpg">
+            </div>
             <h2><a href="/Jekyll-awesome-site/2018/12/01/deontay-wilder-vs-tyson-fury.html">Deontay Wilder vs. Tyson Fury</a></h2>
         </li>
     
+    
+    
         <li>
+            <div class="vs">
+                <img src="/Jekyll-awesome-site/../assets/images/christian-shanell-1213147-unsplash.jpg">
+                <span class="vs-text">vs</span>
+                <img src="/Jekyll-awesome-site/../assets/images/ayo-ogunseinde-93181-unsplash.jpg">
+            </div>
             <h2><a href="/Jekyll-awesome-site/2018/10/27/kubrat-pulev-vs-hughie-fury.html">Kubrat Pulev vs. Hughie Fury</a></h2>
         </li>
     
+    
+    
         <li>
+            <div class="vs">
+                <img src="/Jekyll-awesome-site/../assets/images/andrea-dibitonto-1140614-unsplash.jpg">
+                <span class="vs-text">vs</span>
+                <img src="/Jekyll-awesome-site/../assets/images/radu-florin-1212129-unsplash.jpg">
+            </div>
             <h2><a href="/Jekyll-awesome-site/2017/04/29/anthony-joshua-vs-wladimir-klitschko.html">Anthony Joshua vs. Wladimir Klitschko</a></h2>
         </li>
     
+    
+    
         <li>
+            <div class="vs">
+                <img src="/Jekyll-awesome-site/../assets/images/radu-florin-1212129-unsplash.jpg">
+                <span class="vs-text">vs</span>
+                <img src="/Jekyll-awesome-site/../assets/images/mahdi-meshkatee-1162350-unsplash.jpg">
+            </div>
             <h2><a href="/Jekyll-awesome-site/2017/04/29/wladimir-klitschko-vs-tyson-fury.html">Wladimir Klitschko vs. Tyson Fury</a></h2>
         </li>
     
+    
+    
         <li>
+            <div class="vs">
+                <img src="/Jekyll-awesome-site/../assets/images/radu-florin-1212129-unsplash.jpg">
+                <span class="vs-text">vs</span>
+                <img src="/Jekyll-awesome-site/../assets/images/christian-shanell-1213147-unsplash.jpg">
+            </div>
             <h2><a href="/Jekyll-awesome-site/2014/11/15/wladimir-klitschko-vs-kubrat-pulev.html">Wladimir Klitschko vs. Kubrat Pulev</a></h2>
         </li>
     
 </ul>
 
+		</main>
+		<footer class="site-footer">
+			<span>Boxing © 2018</span>
+			<i class="fab fa-github"></i>
+			<a href="https://github.com/b0jko3/Jekyll-awesome-site">b0jko3</a>
+		</footer>
 	</body>
 </html>

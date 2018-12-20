@@ -6,14 +6,15 @@
 		<link rel="stylesheet" href="/Jekyll-awesome-site/css/styles.css" type="text/css" />
 	</head>
 	<body>
-		<nav>
+		<input type="checkbox" id="nav-toggle" name="nav-toggle">
+		<header class="site-header">
+			<a href="/Jekyll-awesome-site/" class="site-title">Boxing</a>
+			<label for='nav-toggle' class="fas fa-bars"></label>
+			<label for='nav-toggle' id="menu">Menu</label>
+			<nav class="navigation">
     
         <a href="/Jekyll-awesome-site/" >
             Home
-        </a>
-    
-        <a href="/Jekyll-awesome-site/about/" >
-            About
         </a>
     
         <a href="/Jekyll-awesome-site/fights/" >
@@ -24,14 +25,16 @@
             Boxers
         </a>
     
-        <a href="/Jekyll-awesome-site/contacts/" >
-            Contacts
+        <a href="/Jekyll-awesome-site/credits/" >
+            Credits
         </a>
     
 </nav>
-		<h1>Deontay Wilder vs. Tyson Fury</h1>
+		</header>
+		<main class="site-content">
+			<h1>Deontay Wilder vs. Tyson Fury</h1>
 
-<p>
+<p class="post">
     01 Dec 2018
     
     
@@ -42,5 +45,11 @@
 
 <p>Deontay Wilder vs. Tyson Fury was a professional boxing fight that took place on December 1, 2018, at the Staples Center in Los Angeles, California. Undefeated defending WBC heavyweight champion Deontay Wilder faced undefeated challenger and former WBA (Super), WBO, IBF, IBO, The Ring, and lineal heavyweight champion Tyson Fury. The fight ended in a controversial split draw with the scorecard at 115–111 for Wilder, 114–112 for Fury (which was incorrectly announced as 114–110), and 113–113.</p>
 
+		</main>
+		<footer class="site-footer">
+			<span>Boxing © 2018</span>
+			<i class="fab fa-github"></i>
+			<a href="https://github.com/b0jko3/Jekyll-awesome-site">b0jko3</a>
+		</footer>
 	</body>
 </html>

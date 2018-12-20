@@ -1,0 +1,35 @@
+.site-header {
+    display: block;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+
+    @include mq("tablet", min){
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-around;
+    }
+
+    label {
+        @include mq("tablet", min){
+            display: none;
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #menu {
+        text-transform: uppercase;
+    }
+
+    .site-title {
+        margin-right: 1em;
+    }
+}

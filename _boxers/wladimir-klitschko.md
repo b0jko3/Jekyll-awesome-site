@@ -1,12 +1,13 @@
 ---
 name:   Wladimir Klitschko
+image:  /../assets/images/radu-florin-1212129-unsplash.jpg
 real-name:  Wladimir Wladimirowitsch Klitschko
 nickname:   Dr. Steelhammer
 weight: Heavyweight
 height: 1.98 m (6 ft 6 in)
 reach:  206 cm (81 in)
 nationality:    Ukrainian
-born:   25 March 1976 (age 42) Semipalatinsk, Kazakh SSR, Soviet Union (now Semey, Kazakhstan)
+born:   25 March 1976 (age 42)
 stance: Orthodox
 total-fights:   69
 wins:   64

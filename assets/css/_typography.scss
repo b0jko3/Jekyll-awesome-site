@@ -1,0 +1,49 @@
+html {
+	font: 12px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+    position: relative;
+	padding-bottom: 3rem;
+	
+    h1 {
+        text-align: center;
+        border-bottom: 2px solid black;
+	}
+	
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	a:hover {
+		color: green;
+	}
+
+	li {
+		list-style-position: inside;
+		list-style: none;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	html { font-size: 14px; }
+}
+
+@media screen and (min-width: 700px) {
+	html { font-size: 16px; }
+}
+
+@media screen and (min-width: 1024px) {
+	html { font-size: 18px; }
+}
+
+@media screen and (min-width: 1600px) {
+	html { font-size: 20px; }
+}
+
+body, table, th, td, form, input, textarea, option, select {
+	font: inherit;
+}

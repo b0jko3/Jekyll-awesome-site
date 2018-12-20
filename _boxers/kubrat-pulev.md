@@ -1,12 +1,13 @@
 ---
 name:   Kubrat Pulev
+image:  /../assets/images/christian-shanell-1213147-unsplash.jpg
 real-name:  Kubrat Venkov Pulev
 nickname:   Kobrata ("The Cobra")
 weight: Heavyweight
 height: 1.94 m (6 ft 4 in)
 reach:  203 cm (80 in)
 nationality:    Bulgarian
-born:   4 May 1981 (age 37) Sofia, Bulgaria
+born:   4 May 1981 (age 37)
 stance: Orthodox
 total-fights:   27
 wins:   26

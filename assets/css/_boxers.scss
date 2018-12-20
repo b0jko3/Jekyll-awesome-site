@@ -1,0 +1,25 @@
+.boxers {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
+    place-items: center;
+
+    @include mq("phone-400", min){
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mq("tablet-800", min){
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mq("desktop-1200", min){
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    img {
+        object-fit: cover;
+        width: 15em;
+        height: 15em;
+    }
+}

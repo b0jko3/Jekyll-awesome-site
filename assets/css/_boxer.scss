@@ -1,0 +1,18 @@
+.boxer {
+    img {
+        object-fit: cover;
+        width: 15em;
+        height: 25em;
+    }
+
+    .img-stats {
+        margin: 1em 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        @include mq("phone-wide", min){
+            flex-direction: row;
+        }
+    }
+}

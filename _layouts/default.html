@@ -6,7 +6,20 @@
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css" />
 	</head>
 	<body>
-		{% include navigation.html %}
-		{{ content }}
+		<input type="checkbox" id="nav-toggle" name="nav-toggle">
+		<header class="site-header">
+			<a href="{{ site.baseurl }}/" class="site-title">Boxing</a>
+			<label for='nav-toggle' class="fas fa-bars"></label>
+			<label for='nav-toggle' id="menu">Menu</label>
+			{% include navigation.html %}
+		</header>
+		<main class="site-content">
+			{{ content }}
+		</main>
+		<footer class="site-footer">
+			<span>Boxing © 2018</span>
+			<i class="fab fa-github"></i>
+			<a href="https://github.com/b0jko3/Jekyll-awesome-site">b0jko3</a>
+		</footer>
 	</body>
 </html>

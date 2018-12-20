@@ -1,12 +1,13 @@
 ---
 name:   Tyson Fury
+image:  /../assets/images/mahdi-meshkatee-1162350-unsplash.jpg
 real-name:  Tyson Luke Fury
 nickname:   Gypsy King, The Furious One, 2 Fast
 weight: Heavyweight
 height: 2.05 m (6 ft 8 3⁄4 in)
 reach:  216 cm (85 in)
 nationality:    British
-born:   12 August 1988 (age 30) Wythenshawe, Manchester, England
+born:   12 August 1988 (age 30)
 stance: Orthodox
 total-fights:   28
 wins:   27

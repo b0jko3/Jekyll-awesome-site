@@ -1,0 +1,46 @@
+.credits {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    grid-auto-flow: dense;
+
+    @include mq("tablet-small", min){
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mq("tablet-wide", min){
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    @include mq("desktop-wide", min){
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        padding: 4px 6px;
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 1.2;
+        display: inline-block;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    span {
+        display: inline-block;
+        padding: 2px 3px;
+    }
+
+    svg {
+        height: 12px;
+        width: auto;
+        position: relative;
+        vertical-align: middle;
+        top: -2px;
+        fill: white;
+    }
+}

@@ -1,12 +1,13 @@
 ---
 name:   Deontay Wilder
+image:  /../assets/images/ashkan-forouzani-1176256-unsplash.jpg
 real-name:  Deontay Leshun Wilder
 nickname:   The Bronze Bomber
 weight: Heavyweight
 height: 2.01 m (6 ft 7 in)
 reach:  211 cm (83 in)
 nationality:    American
-born:   22 October 1985 (age 33) Tuscaloosa, Alabama, U.S.
+born:   22 October 1985 (age 33)
 stance: Orthodox
 total-fights:   41
 wins:   40

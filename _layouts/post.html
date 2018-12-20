@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<p>
+<p class="post">
     {{ page.date | date_to_string }}
     {% assign boxer0 = site.boxers | where: 'name', page.boxers[0] %}
     {% assign boxer1 = site.boxers | where: 'name', page.boxers[1] %}

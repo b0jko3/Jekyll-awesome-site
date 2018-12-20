@@ -1,2 +1,18 @@
 
-@import "main.scss"
+@import '../../fontawesome/css/all.css';
+
+@import 'reset';
+@import 'responsive';
+@import 'navigation';
+@import 'typography';
+
+@import 'home';
+@import 'fights';
+@import 'post';
+@import 'boxers';
+@import 'boxer';
+@import 'credits';
+
+@import 'site-header';
+@import 'site-content';
+@import 'site-footer';

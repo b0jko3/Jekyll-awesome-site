@@ -1,0 +1,27 @@
+.fights {
+    a {
+        color: black;
+    }
+
+    img {
+        object-fit: cover;
+        width: 6em;
+        height: 6em;
+    }
+
+    li {
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .vs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vs-text {
+        text-transform: uppercase;
+        font-size: 2em;
+    }
+}

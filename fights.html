@@ -5,9 +5,16 @@ permalink: /fights/
 
 <h1>Latest Fights</h1>
 
-<ul>
-    {% for fight in site.posts %}
+<ul class="fights">
+    {% for fight in site.posts limit: 5 %}
+    {% assign boxer0 = site.boxers | where: 'name', fight.boxers[0] %}
+    {% assign boxer1 = site.boxers | where: 'name', fight.boxers[1] %}
         <li>
+            <div class="vs">
+                <img src="{{ boxer0[0].image | prepend: site.baseurl }}">
+                <span class="vs-text">vs</span>
+                <img src="{{ boxer1[0].image | prepend: site.baseurl }}">
+            </div>
             <h2><a href="{{ site.baseurl }}{{ fight.url }}">{{ fight.title }}</a></h2>
         </li>
     {% endfor %}

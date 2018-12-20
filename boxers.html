@@ -4,9 +4,12 @@ permalink: /boxers/
 ---
 <h1>Boxers</h1>
 
-<ul>
+<ul class="boxers">
     {% for boxer in site.boxers %}
         <li>
+            <a href="{{ site.baseurl }}{{ boxer.url }}">
+                <img src="{{ site.baseurl }}{{ boxer.image }}">
+            </a>
             <h2><a href="{{ site.baseurl }}{{ boxer.url }}">{{ boxer.name }}</a></h2>
         </li>
     {% endfor %}
