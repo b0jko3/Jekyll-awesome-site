@@ -1,6 +1,6 @@
 ---
 name:   Kubrat Pulev
-image:  /../assets/images/christian-shanell-1213147-unsplash.jpg
+image:  /assets/images/christian-shanell-1213147-unsplash.jpg
 real-name:  Kubrat Venkov Pulev
 nickname:   Kobrata ("The Cobra")
 weight: Heavyweight

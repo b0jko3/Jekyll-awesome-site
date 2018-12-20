@@ -1,6 +1,6 @@
 ---
 name:   Tyson Fury
-image:  /../assets/images/mahdi-meshkatee-1162350-unsplash.jpg
+image:  /assets/images/mahdi-meshkatee-1162350-unsplash.jpg
 real-name:  Tyson Luke Fury
 nickname:   Gypsy King, The Furious One, 2 Fast
 weight: Heavyweight

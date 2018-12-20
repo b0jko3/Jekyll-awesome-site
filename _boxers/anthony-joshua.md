@@ -1,6 +1,6 @@
 ---
 name:   Anthony Joshua
-image:  /../assets/images/andrea-dibitonto-1140614-unsplash.jpg
+image:  /assets/images/andrea-dibitonto-1140614-unsplash.jpg
 real-name:  Anthony Oluwafemi Olaseni Joshua
 nickname:   AJ
 weight: Heavyweight

@@ -1,6 +1,6 @@
 ---
 name:   Wladimir Klitschko
-image:  /../assets/images/radu-florin-1212129-unsplash.jpg
+image:  /assets/images/radu-florin-1212129-unsplash.jpg
 real-name:  Wladimir Wladimirowitsch Klitschko
 nickname:   Dr. Steelhammer
 weight: Heavyweight

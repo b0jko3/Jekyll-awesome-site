@@ -1,6 +1,6 @@
 ---
 name:   Deontay Wilder
-image:  /../assets/images/ashkan-forouzani-1176256-unsplash.jpg
+image:  /assets/images/ashkan-forouzani-1176256-unsplash.jpg
 real-name:  Deontay Leshun Wilder
 nickname:   The Bronze Bomber
 weight: Heavyweight

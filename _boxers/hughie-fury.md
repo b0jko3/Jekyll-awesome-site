@@ -1,6 +1,6 @@
 ---
 name:   Hughie Fury
-image:  /../assets/images/ayo-ogunseinde-93181-unsplash.jpg
+image:  /assets/images/ayo-ogunseinde-93181-unsplash.jpg
 real-name:  Hughie Lewis Fury
 nickname:   The Fist of Fury
 weight: Heavyweight
